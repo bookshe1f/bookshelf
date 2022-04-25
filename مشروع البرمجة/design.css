@@ -1,0 +1,74 @@
+*{
+  padding:0;
+  margin:0;
+  font-family:tohoma;
+  }
+  
+  
+  
+  .login{
+    background-image:url(booksss.jpg);
+	width:100%;
+	height: 100%;
+	background-repeat:no repeat;
+	background-size:cover;
+	}
+	
+	.overlay{
+		width: 100%;
+		height: 100%;
+		background-color: rgba(0,0,0,0.5);
+	}
+	
+	.form-login{
+		width: 300px;
+		margin: auto;
+		text-align: center;
+		transform:translateY(-50%);
+		position: relative;
+		top:50%;
+		padding: 35px 20px;
+		box-shadow: 0 0 10px #aaa
+	}
+		
+		.form-login input{
+			display: inline-block;
+			padding:15px 25px;
+			border:none;
+			margin-top:15;
+			width:100%;
+			border-radius:5px;
+		}
+		
+		.form-login button{
+			padding:8px 20px;
+			margin-top:15px;
+			background:#16a085;
+			border:none;
+			color:#fff;
+			border-radius:15;
+			width:100%;
+			font-size: 17px;
+			cursor: pointer;
+			transition:background .5s
+		}
+		
+		.form-login button:hover{
+			background:#2ecc71;
+		}
+			
+			.form-login a{
+				color:#fff;
+				display: block;
+				text-align: left;
+				font-size: 14px;
+				padding:15px 5px;
+				text-decoration:none;
+			}
+			
+			
+			.form-login img{
+				border-radius:100%;
+				position: absolute:
+				transform: translateX(-50%);
+			}
